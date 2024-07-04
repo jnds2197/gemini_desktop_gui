@@ -2,7 +2,7 @@ import google.generativeai as genai
 import customtkinter
 
 #gemini config
-API_KEY = 'AIzaSyDVBN2IW9HEcW-9OyNXW4eZ3ifUSukmpOk'
+API_KEY = ''
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel('gemini-pro')
 
